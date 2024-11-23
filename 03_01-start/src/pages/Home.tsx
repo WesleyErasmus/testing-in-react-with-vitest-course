@@ -1,3 +1,4 @@
+import React from 'react';
 import FruitSearch from '../components/FruitSearch';
 
 const Home = () => {
