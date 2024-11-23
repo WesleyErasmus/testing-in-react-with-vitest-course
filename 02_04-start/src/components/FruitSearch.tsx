@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Fruit, Fruits } from './Fruits';
+import React from 'react';
 
 const FruitSearch = ({fruitName}: { fruitName: string }) => {
   const [fruit, setFruit] = useState<Fruit | undefined>(undefined);
