@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Fruit, Fruits } from '../components/Fruits';
+import React from 'react';
 
 const FruitPage = (fruitName: string) => {
   const [fruit, setFruit] = useState<Fruit | undefined>(undefined);

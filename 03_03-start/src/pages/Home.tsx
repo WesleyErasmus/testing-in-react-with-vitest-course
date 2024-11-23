@@ -1,5 +1,6 @@
 import NavBar from '../components/Navbar';
 import FruitSearch from '../components/FruitSearch';
+import React from 'react';
 
 const Home = () => {
   return (
